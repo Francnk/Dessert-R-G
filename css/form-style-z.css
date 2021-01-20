@@ -1,0 +1,29 @@
+.overlay{
+	display:none;
+	width: 100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    background: rgba(0,0,0,0.9);
+    min-height: 100%;
+    z-index: 10;
+    border-radius: 5px;
+    padding: 15px;
+}
+/* not active */
+.nav-pills .nav-link:not(.active) {
+    background-color: #fff;
+    color: black;
+}
+
+/* active*/
+.nav-pills .nav-link.active {
+    background-color: #5daa49;
+    color: white;
+}
+/* Boton*/
+.btn-primary
+{
+    background-color: #5daa49;
+    color: white;
+}
